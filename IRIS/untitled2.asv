@@ -1,0 +1,11 @@
+f = linspace(0,19500,10000);
+r = 0.015;
+c = 340;
+x = 2*pi*r*f./c;
+y = 1/3*sin(x)./x+1i*(sin(x)-x.*cos(x))./x.^2-2/3*(3*(sin(x)-x.*cos(x))-x.*x.*sin(x))./x.^3;
+y0 = 3*(1+1j/3*x-1/3*x.*x)./(1+1j/3*x);
+figure;
+semilogx(f,(abs(1./y)));
+hold on
+semilogx(f,(abs(y0)));
+semilogx(f,(abs(y.*y0)));

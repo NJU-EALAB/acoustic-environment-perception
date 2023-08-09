@@ -1,0 +1,15 @@
+function y = circConv(a, b, L)
+if nargin<3
+    
+a = a(:);
+b = b(:);
+La = numel(a);
+Lb = numel(b);
+a = [a(:);zeros(L-La,1)];
+b = [b(:);zeros(L-Lb,1)];
+y = zeros(L,1);
+for ii = 1:L
+    y(ii) = a'*circshift(b,ii-1);
+end
+
+end

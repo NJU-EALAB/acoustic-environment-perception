@@ -1,0 +1,860 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Model>
+  <AppSettings>
+    <Version>
+      <Major>1</Major>
+      <Minor>1</Minor>
+      <Build>5462</Build>
+      <Revision>22275</Revision>
+    </Version>
+    <WindowWidth>1436</WindowWidth>
+    <WindowHeight>810</WindowHeight>
+    <WindowTop>127</WindowTop>
+    <WindowLeft>192</WindowLeft>
+    <WindowState>Normal</WindowState>
+    <SaveAllAudioSignals>true</SaveAllAudioSignals>
+    <IRStreamParams>
+      <DeviceName>MOTU Audio ASIO</DeviceName>
+      <InputChannelNames>
+        <string>1: Mic/Line 1</string>
+        <string>2: Mic/Line 2</string>
+        <string>3: Mic/Guitar 1</string>
+        <string>4: Mic/Guitar 2</string>
+        <string>5: S/PDIF 1</string>
+        <string>6: S/PDIF 2</string>
+        <string>7: Mix 1 Return 1</string>
+        <string>8: Mix 1 Return 2</string>
+      </InputChannelNames>
+      <OutputChannelNames>
+        <string>1: Main Out 1-2</string>
+        <string>2: Main Out 1-2</string>
+        <string>3: Analog 1-2</string>
+        <string>4: Analog 1-2</string>
+        <string>5: S/PDIF 1-2</string>
+        <string>6: S/PDIF 1-2</string>
+        <string>7: Phones 1-2</string>
+        <string>8: Phones 1-2</string>
+      </OutputChannelNames>
+      <AudioDeviceSerialNumber>8018 4PRE1002090</AudioDeviceSerialNumber>
+      <SampleRate>44100</SampleRate>
+      <IO>
+        <Omni>0</Omni>
+        <LFU1>0</LFU1>
+        <RFD2>1</RFD2>
+        <LBD3>2</LBD3>
+        <RBU4>3</RBU4>
+        <Output>3</Output>
+        <ReceiverType>TetraMic</ReceiverType>
+        <OutputGain>-52</OutputGain>
+      </IO>
+      <SweepParams>
+        <SweepTime>2</SweepTime>
+        <SilenceTime>1</SilenceTime>
+        <ExtraTime>1</ExtraTime>
+        <FadeOutTime>0.01</FadeOutTime>
+        <StartFreq>20</StartFreq>
+        <EndFreq>20000</EndFreq>
+      </SweepParams>
+      <TetraMicSerialNumber>2136</TetraMicSerialNumber>
+      <SourceCalibrationName>None</SourceCalibrationName>
+    </IRStreamParams>
+    <DefaultProjectDirectory></DefaultProjectDirectory>
+    <ResultsViewDefaults>
+      <ResultsView>Parameters</ResultsView>
+      <IrisPlotViewData>
+        <Position>
+          <X>0</X>
+          <Y>0</Y>
+          <Z>4.5</Z>
+        </Position>
+        <LookDirection>
+          <X>0</X>
+          <Y>0</Y>
+          <Z>-4.5</Z>
+        </LookDirection>
+        <UpDirection>
+          <X>0</X>
+          <Y>1</Y>
+          <Z>0</Z>
+        </UpDirection>
+        <Orthographic>true</Orthographic>
+        <DBRef>0</DBRef>
+        <SelectedArrivalIndex>0</SelectedArrivalIndex>
+        <OffsetdB>40</OffsetdB>
+        <Band>Broadband</Band>
+        <SegmentTime>0.002</SegmentTime>
+        <ArrivalTimeColoursList>
+          <ArrivalTimeColours>
+            <ArrivalTimeColourList>
+              <ArrivalTimeColourItem>
+                <TimeIntervalEnd>2</TimeIntervalEnd>
+                <Colour>
+                  <A>255</A>
+                  <R>224</R>
+                  <G>37</G>
+                  <B>65</B>
+                  <ScA>1</ScA>
+                  <ScR>0.7454042</ScR>
+                  <ScG>0.01850022</ScG>
+                  <ScB>0.0528606474</ScB>
+                </Colour>
+                <isHidden>false</isHidden>
+              </ArrivalTimeColourItem>
+              <ArrivalTimeColourItem>
+                <TimeIntervalEnd>20</TimeIntervalEnd>
+                <Colour>
+                  <A>255</A>
+                  <R>254</R>
+                  <G>131</G>
+                  <B>48</B>
+                  <ScA>1</ScA>
+                  <ScR>0.9911021</ScR>
+                  <ScG>0.226965874</ScG>
+                  <ScB>0.0295568351</ScB>
+                </Colour>
+                <isHidden>false</isHidden>
+              </ArrivalTimeColourItem>
+              <ArrivalTimeColourItem>
+                <TimeIntervalEnd>80</TimeIntervalEnd>
+                <Colour>
+                  <A>255</A>
+                  <R>168</R>
+                  <G>223</G>
+                  <B>85</B>
+                  <ScA>1</ScA>
+                  <ScR>0.391572475</ScR>
+                  <ScG>0.7379104</ScG>
+                  <ScB>0.09084171</ScB>
+                </Colour>
+                <isHidden>false</isHidden>
+              </ArrivalTimeColourItem>
+              <ArrivalTimeColourItem>
+                <TimeIntervalEnd>200</TimeIntervalEnd>
+                <Colour>
+                  <A>255</A>
+                  <R>54</R>
+                  <G>143</G>
+                  <B>186</B>
+                  <ScA>1</ScA>
+                  <ScR>0.03688945</ScR>
+                  <ScG>0.2746773</ScG>
+                  <ScB>0.491020858</ScB>
+                </Colour>
+                <isHidden>false</isHidden>
+              </ArrivalTimeColourItem>
+              <ArrivalTimeColourItem>
+                <TimeIntervalEnd>INF</TimeIntervalEnd>
+                <Colour>
+                  <A>255</A>
+                  <R>162</R>
+                  <G>207</G>
+                  <B>232</B>
+                  <ScA>1</ScA>
+                  <ScR>0.3613068</ScR>
+                  <ScG>0.6239604</ScG>
+                  <ScB>0.806952238</ScB>
+                </Colour>
+                <isHidden>false</isHidden>
+              </ArrivalTimeColourItem>
+            </ArrivalTimeColourList>
+            <Name>Music</Name>
+          </ArrivalTimeColours>
+          <ArrivalTimeColours>
+            <ArrivalTimeColourList>
+              <ArrivalTimeColourItem>
+                <TimeIntervalEnd>2</TimeIntervalEnd>
+                <Colour>
+                  <A>255</A>
+                  <R>224</R>
+                  <G>37</G>
+                  <B>65</B>
+                  <ScA>1</ScA>
+                  <ScR>0.7454042</ScR>
+                  <ScG>0.01850022</ScG>
+                  <ScB>0.0528606474</ScB>
+                </Colour>
+                <isHidden>false</isHidden>
+              </ArrivalTimeColourItem>
+              <ArrivalTimeColourItem>
+                <TimeIntervalEnd>50</TimeIntervalEnd>
+                <Colour>
+                  <A>255</A>
+                  <R>168</R>
+                  <G>223</G>
+                  <B>85</B>
+                  <ScA>1</ScA>
+                  <ScR>0.391572475</ScR>
+                  <ScG>0.7379104</ScG>
+                  <ScB>0.09084171</ScB>
+                </Colour>
+                <isHidden>false</isHidden>
+              </ArrivalTimeColourItem>
+              <ArrivalTimeColourItem>
+                <TimeIntervalEnd>80</TimeIntervalEnd>
+                <Colour>
+                  <A>255</A>
+                  <R>54</R>
+                  <G>143</G>
+                  <B>186</B>
+                  <ScA>1</ScA>
+                  <ScR>0.03688945</ScR>
+                  <ScG>0.2746773</ScG>
+                  <ScB>0.491020858</ScB>
+                </Colour>
+                <isHidden>false</isHidden>
+              </ArrivalTimeColourItem>
+              <ArrivalTimeColourItem>
+                <TimeIntervalEnd>INF</TimeIntervalEnd>
+                <Colour>
+                  <A>255</A>
+                  <R>162</R>
+                  <G>207</G>
+                  <B>232</B>
+                  <ScA>1</ScA>
+                  <ScR>0.3613068</ScR>
+                  <ScG>0.6239604</ScG>
+                  <ScB>0.806952238</ScB>
+                </Colour>
+                <isHidden>false</isHidden>
+              </ArrivalTimeColourItem>
+            </ArrivalTimeColourList>
+            <Name>Speech</Name>
+          </ArrivalTimeColours>
+          <ArrivalTimeColours>
+            <ArrivalTimeColourList>
+              <ArrivalTimeColourItem>
+                <TimeIntervalEnd>2</TimeIntervalEnd>
+                <Colour>
+                  <A>255</A>
+                  <R>224</R>
+                  <G>37</G>
+                  <B>65</B>
+                  <ScA>1</ScA>
+                  <ScR>0.7454042</ScR>
+                  <ScG>0.01850022</ScG>
+                  <ScB>0.0528606474</ScB>
+                </Colour>
+                <isHidden>false</isHidden>
+              </ArrivalTimeColourItem>
+              <ArrivalTimeColourItem>
+                <TimeIntervalEnd>15</TimeIntervalEnd>
+                <Colour>
+                  <A>255</A>
+                  <R>254</R>
+                  <G>131</G>
+                  <B>48</B>
+                  <ScA>1</ScA>
+                  <ScR>0.9911021</ScR>
+                  <ScG>0.226965874</ScG>
+                  <ScB>0.0295568351</ScB>
+                </Colour>
+                <isHidden>false</isHidden>
+              </ArrivalTimeColourItem>
+              <ArrivalTimeColourItem>
+                <TimeIntervalEnd>50</TimeIntervalEnd>
+                <Colour>
+                  <A>255</A>
+                  <R>168</R>
+                  <G>223</G>
+                  <B>85</B>
+                  <ScA>1</ScA>
+                  <ScR>0.391572475</ScR>
+                  <ScG>0.7379104</ScG>
+                  <ScB>0.09084171</ScB>
+                </Colour>
+                <isHidden>false</isHidden>
+              </ArrivalTimeColourItem>
+              <ArrivalTimeColourItem>
+                <TimeIntervalEnd>INF</TimeIntervalEnd>
+                <Colour>
+                  <A>255</A>
+                  <R>54</R>
+                  <G>143</G>
+                  <B>186</B>
+                  <ScA>1</ScA>
+                  <ScR>0.03688945</ScR>
+                  <ScG>0.2746773</ScG>
+                  <ScB>0.491020858</ScB>
+                </Colour>
+                <isHidden>false</isHidden>
+              </ArrivalTimeColourItem>
+            </ArrivalTimeColourList>
+            <Name>Studio</Name>
+          </ArrivalTimeColours>
+        </ArrivalTimeColoursList>
+        <SelectedArrivalTimeColoursName>Music</SelectedArrivalTimeColoursName>
+        <ReferenceMeasurementId>-1</ReferenceMeasurementId>
+        <UseGlobalLevelReference>false</UseGlobalLevelReference>
+        <AlignDirectToX>false</AlignDirectToX>
+        <CameraParam>5.196152422706632</CameraParam>
+        <SelectedArrivalSegmentTime>-1</SelectedArrivalSegmentTime>
+        <SelectedArrivalOnset>-1</SelectedArrivalOnset>
+      </IrisPlotViewData>
+      <WaveformData>
+        <StartSampleIndex>0</StartSampleIndex>
+        <EndSampleIndex>0</EndSampleIndex>
+        <MinAmpLin>0</MinAmpLin>
+        <MaxAmpLin>0</MaxAmpLin>
+        <MinAmpLog>0</MinAmpLog>
+        <MaxAmpLog>0</MaxAmpLog>
+        <DisplayType>Linear</DisplayType>
+      </WaveformData>
+      <SelectedChartMeasureIndex>3</SelectedChartMeasureIndex>
+    </ResultsViewDefaults>
+  </AppSettings>
+  <Project>
+    <Name>Auckland Town Hall</Name>
+    <Notes>Stage extensions were setup.
+Source is a dodec speaker, center 1.5m high from stage floor</Notes>
+    <OperatorName>Joe Smith</OperatorName>
+    <ProjectDate>2013-10-31T00:00:00+13:00</ProjectDate>
+    <Version>
+      <Major>1</Major>
+      <Minor>0</Minor>
+      <Build>0</Build>
+      <Revision>-1</Revision>
+    </Version>
+    <Created>2013-10-31T10:34:32.5976562+13:00</Created>
+    <LastOpenedMeasurementFolderName>1</LastOpenedMeasurementFolderName>
+    <WaveformViewHeight>200</WaveformViewHeight>
+    <ResultsViewData>
+      <ResultsView>View3D</ResultsView>
+      <IrisPlotViewData>
+        <Position>
+          <X>0</X>
+          <Y>0</Y>
+          <Z>4.5</Z>
+        </Position>
+        <LookDirection>
+          <X>0</X>
+          <Y>0</Y>
+          <Z>-4.5</Z>
+        </LookDirection>
+        <UpDirection>
+          <X>0</X>
+          <Y>1</Y>
+          <Z>0</Z>
+        </UpDirection>
+        <Orthographic>true</Orthographic>
+        <DBRef>0</DBRef>
+        <SelectedArrivalIndex>0</SelectedArrivalIndex>
+        <OffsetdB>40</OffsetdB>
+        <Band>Broadband</Band>
+        <SegmentTime>0.002</SegmentTime>
+        <ArrivalTimeColoursList>
+          <ArrivalTimeColours>
+            <ArrivalTimeColourList>
+              <ArrivalTimeColourItem>
+                <TimeIntervalEnd>2</TimeIntervalEnd>
+                <Colour>
+                  <A>255</A>
+                  <R>224</R>
+                  <G>37</G>
+                  <B>65</B>
+                  <ScA>1</ScA>
+                  <ScR>0.7454042</ScR>
+                  <ScG>0.01850022</ScG>
+                  <ScB>0.0528606474</ScB>
+                </Colour>
+                <isHidden>false</isHidden>
+              </ArrivalTimeColourItem>
+              <ArrivalTimeColourItem>
+                <TimeIntervalEnd>20</TimeIntervalEnd>
+                <Colour>
+                  <A>255</A>
+                  <R>254</R>
+                  <G>131</G>
+                  <B>48</B>
+                  <ScA>1</ScA>
+                  <ScR>0.9911021</ScR>
+                  <ScG>0.226965874</ScG>
+                  <ScB>0.0295568351</ScB>
+                </Colour>
+                <isHidden>false</isHidden>
+              </ArrivalTimeColourItem>
+              <ArrivalTimeColourItem>
+                <TimeIntervalEnd>80</TimeIntervalEnd>
+                <Colour>
+                  <A>255</A>
+                  <R>168</R>
+                  <G>223</G>
+                  <B>85</B>
+                  <ScA>1</ScA>
+                  <ScR>0.391572475</ScR>
+                  <ScG>0.7379104</ScG>
+                  <ScB>0.09084171</ScB>
+                </Colour>
+                <isHidden>false</isHidden>
+              </ArrivalTimeColourItem>
+              <ArrivalTimeColourItem>
+                <TimeIntervalEnd>200</TimeIntervalEnd>
+                <Colour>
+                  <A>255</A>
+                  <R>54</R>
+                  <G>143</G>
+                  <B>186</B>
+                  <ScA>1</ScA>
+                  <ScR>0.03688945</ScR>
+                  <ScG>0.2746773</ScG>
+                  <ScB>0.491020858</ScB>
+                </Colour>
+                <isHidden>false</isHidden>
+              </ArrivalTimeColourItem>
+              <ArrivalTimeColourItem>
+                <TimeIntervalEnd>INF</TimeIntervalEnd>
+                <Colour>
+                  <A>255</A>
+                  <R>162</R>
+                  <G>207</G>
+                  <B>232</B>
+                  <ScA>1</ScA>
+                  <ScR>0.3613068</ScR>
+                  <ScG>0.6239604</ScG>
+                  <ScB>0.806952238</ScB>
+                </Colour>
+                <isHidden>false</isHidden>
+              </ArrivalTimeColourItem>
+            </ArrivalTimeColourList>
+            <Name>Music</Name>
+          </ArrivalTimeColours>
+          <ArrivalTimeColours>
+            <ArrivalTimeColourList>
+              <ArrivalTimeColourItem>
+                <TimeIntervalEnd>2</TimeIntervalEnd>
+                <Colour>
+                  <A>255</A>
+                  <R>224</R>
+                  <G>37</G>
+                  <B>65</B>
+                  <ScA>1</ScA>
+                  <ScR>0.7454042</ScR>
+                  <ScG>0.01850022</ScG>
+                  <ScB>0.0528606474</ScB>
+                </Colour>
+                <isHidden>false</isHidden>
+              </ArrivalTimeColourItem>
+              <ArrivalTimeColourItem>
+                <TimeIntervalEnd>50</TimeIntervalEnd>
+                <Colour>
+                  <A>255</A>
+                  <R>168</R>
+                  <G>223</G>
+                  <B>85</B>
+                  <ScA>1</ScA>
+                  <ScR>0.391572475</ScR>
+                  <ScG>0.7379104</ScG>
+                  <ScB>0.09084171</ScB>
+                </Colour>
+                <isHidden>false</isHidden>
+              </ArrivalTimeColourItem>
+              <ArrivalTimeColourItem>
+                <TimeIntervalEnd>80</TimeIntervalEnd>
+                <Colour>
+                  <A>255</A>
+                  <R>54</R>
+                  <G>143</G>
+                  <B>186</B>
+                  <ScA>1</ScA>
+                  <ScR>0.03688945</ScR>
+                  <ScG>0.2746773</ScG>
+                  <ScB>0.491020858</ScB>
+                </Colour>
+                <isHidden>false</isHidden>
+              </ArrivalTimeColourItem>
+              <ArrivalTimeColourItem>
+                <TimeIntervalEnd>INF</TimeIntervalEnd>
+                <Colour>
+                  <A>255</A>
+                  <R>162</R>
+                  <G>207</G>
+                  <B>232</B>
+                  <ScA>1</ScA>
+                  <ScR>0.3613068</ScR>
+                  <ScG>0.6239604</ScG>
+                  <ScB>0.806952238</ScB>
+                </Colour>
+                <isHidden>false</isHidden>
+              </ArrivalTimeColourItem>
+            </ArrivalTimeColourList>
+            <Name>Speech</Name>
+          </ArrivalTimeColours>
+          <ArrivalTimeColours>
+            <ArrivalTimeColourList>
+              <ArrivalTimeColourItem>
+                <TimeIntervalEnd>2</TimeIntervalEnd>
+                <Colour>
+                  <A>255</A>
+                  <R>224</R>
+                  <G>37</G>
+                  <B>65</B>
+                  <ScA>1</ScA>
+                  <ScR>0.7454042</ScR>
+                  <ScG>0.01850022</ScG>
+                  <ScB>0.0528606474</ScB>
+                </Colour>
+                <isHidden>false</isHidden>
+              </ArrivalTimeColourItem>
+              <ArrivalTimeColourItem>
+                <TimeIntervalEnd>15</TimeIntervalEnd>
+                <Colour>
+                  <A>255</A>
+                  <R>254</R>
+                  <G>131</G>
+                  <B>48</B>
+                  <ScA>1</ScA>
+                  <ScR>0.9911021</ScR>
+                  <ScG>0.226965874</ScG>
+                  <ScB>0.0295568351</ScB>
+                </Colour>
+                <isHidden>false</isHidden>
+              </ArrivalTimeColourItem>
+              <ArrivalTimeColourItem>
+                <TimeIntervalEnd>50</TimeIntervalEnd>
+                <Colour>
+                  <A>255</A>
+                  <R>168</R>
+                  <G>223</G>
+                  <B>85</B>
+                  <ScA>1</ScA>
+                  <ScR>0.391572475</ScR>
+                  <ScG>0.7379104</ScG>
+                  <ScB>0.09084171</ScB>
+                </Colour>
+                <isHidden>false</isHidden>
+              </ArrivalTimeColourItem>
+              <ArrivalTimeColourItem>
+                <TimeIntervalEnd>INF</TimeIntervalEnd>
+                <Colour>
+                  <A>255</A>
+                  <R>54</R>
+                  <G>143</G>
+                  <B>186</B>
+                  <ScA>1</ScA>
+                  <ScR>0.03688945</ScR>
+                  <ScG>0.2746773</ScG>
+                  <ScB>0.491020858</ScB>
+                </Colour>
+                <isHidden>false</isHidden>
+              </ArrivalTimeColourItem>
+            </ArrivalTimeColourList>
+            <Name>Studio</Name>
+          </ArrivalTimeColours>
+        </ArrivalTimeColoursList>
+        <SelectedArrivalTimeColoursName>Music</SelectedArrivalTimeColoursName>
+        <ReferenceMeasurementId>-1</ReferenceMeasurementId>
+        <UseGlobalLevelReference>false</UseGlobalLevelReference>
+        <AlignDirectToX>false</AlignDirectToX>
+        <CameraParam>5.196152422706632</CameraParam>
+        <SelectedArrivalSegmentTime>-1</SelectedArrivalSegmentTime>
+        <SelectedArrivalOnset>-1</SelectedArrivalOnset>
+      </IrisPlotViewData>
+      <WaveformData>
+        <StartSampleIndex>0</StartSampleIndex>
+        <EndSampleIndex>0</EndSampleIndex>
+        <MinAmpLin>0</MinAmpLin>
+        <MaxAmpLin>0</MaxAmpLin>
+        <MinAmpLog>0</MinAmpLog>
+        <MaxAmpLog>0</MaxAmpLog>
+        <DisplayType>Linear</DisplayType>
+      </WaveformData>
+      <SelectedChartMeasureIndex>1</SelectedChartMeasureIndex>
+    </ResultsViewData>
+    <MsmtDetailsSetupExpanded>true</MsmtDetailsSetupExpanded>
+    <MsmtDetailsResultsSummaryExpanded>true</MsmtDetailsResultsSummaryExpanded>
+  </Project>
+  <Measurement>
+    <LastSavedWithVersion>
+      <Major>1</Major>
+      <Minor>1</Minor>
+      <Build>5462</Build>
+      <Revision>22275</Revision>
+    </LastSavedWithVersion>
+    <Version>
+      <Major>1</Major>
+      <Minor>0</Minor>
+      <Build>0</Build>
+      <Revision>-1</Revision>
+    </Version>
+    <Id>1</Id>
+    <Description>Town Hall S1R4</Description>
+    <Source>S1</Source>
+    <Receiver>R4</Receiver>
+    <Notes />
+    <IsConducted>true</IsConducted>
+    <Created>2013-09-09T13:38:30.3410234+12:00</Created>
+    <DateTimeOfRecording>2013-01-24T13:40:12.3574+13:00</DateTimeOfRecording>
+    <IRStreamParams>
+      <DeviceName>ASIO Fireface USB</DeviceName>
+      <InputChannelNames>
+        <string>Analog 1 (1)</string>
+        <string>Analog 2 (1)</string>
+        <string>Analog 3 (1)</string>
+        <string>Analog 4 (1)</string>
+        <string>Analog 5 (1)</string>
+        <string>Analog 6 (1)</string>
+        <string>Analog 7 (1)</string>
+        <string>Analog 8 (1)</string>
+        <string>Analog 9 (1)</string>
+        <string>Analog 10 (1)</string>
+        <string>Analog 11 (1)</string>
+        <string>Analog 12 (1)</string>
+        <string>AES L (1)</string>
+        <string>AES R (1)</string>
+        <string>Adat 1 (1)</string>
+        <string>Adat 2 (1)</string>
+        <string>Adat 3 (1)</string>
+        <string>Adat 4 (1)</string>
+        <string>Adat 5 (1)</string>
+        <string>Adat 6 (1)</string>
+        <string>Adat 7 (1)</string>
+        <string>Adat 8 (1)</string>
+        <string>Adat 9 (1)</string>
+        <string>Adat 10 (1)</string>
+        <string>Adat 11 (1)</string>
+        <string>Adat 12 (1)</string>
+        <string>Adat 13 (1)</string>
+        <string>Adat 14 (1)</string>
+        <string>Adat 15 (1)</string>
+        <string>Adat 16 (1)</string>
+      </InputChannelNames>
+      <OutputChannelNames>
+        <string>Analog 1 (1)</string>
+        <string>Analog 2 (1)</string>
+        <string>Analog 3 (1)</string>
+        <string>Analog 4 (1)</string>
+        <string>Analog 5 (1)</string>
+        <string>Analog 6 (1)</string>
+        <string>Analog 7 (1)</string>
+        <string>Analog 8 (1)</string>
+        <string>Analog 9 (1)</string>
+        <string>Analog 10 (1)</string>
+        <string>Analog 11 (1)</string>
+        <string>Analog 12 (1)</string>
+        <string>AES L (1)</string>
+        <string>AES R (1)</string>
+        <string>Adat 1 (1)</string>
+        <string>Adat 2 (1)</string>
+        <string>Adat 3 (1)</string>
+        <string>Adat 4 (1)</string>
+        <string>Adat 5 (1)</string>
+        <string>Adat 6 (1)</string>
+        <string>Adat 7 (1)</string>
+        <string>Adat 8 (1)</string>
+        <string>Adat 9 (1)</string>
+        <string>Adat 10 (1)</string>
+        <string>Adat 11 (1)</string>
+        <string>Adat 12 (1)</string>
+        <string>Adat 13 (1)</string>
+        <string>Adat 14 (1)</string>
+        <string>Adat 15 (1)</string>
+        <string>Adat 16 (1)</string>
+      </OutputChannelNames>
+      <SampleRate>44100</SampleRate>
+      <IO>
+        <Omni>0</Omni>
+        <LFU1>8</LFU1>
+        <RFD2>9</RFD2>
+        <LBD3>10</LBD3>
+        <RBU4>11</RBU4>
+        <Output>0</Output>
+        <ReceiverType>TetraMic</ReceiverType>
+        <OutputGain>0</OutputGain>
+      </IO>
+      <SweepParams>
+        <SweepTime>30</SweepTime>
+        <SilenceTime>5</SilenceTime>
+        <ExtraTime>1</ExtraTime>
+        <FadeOutTime>0.01</FadeOutTime>
+        <StartFreq>20</StartFreq>
+        <EndFreq>22000</EndFreq>
+      </SweepParams>
+      <TetraMicSerialNumber>2136</TetraMicSerialNumber>
+      <SourceCalibrationName>None</SourceCalibrationName>
+    </IRStreamParams>
+    <IR>
+      <NormaliseFactor>919.70713854390465</NormaliseFactor>
+      <Onset>3422</Onset>
+    </IR>
+    <ResultsViewData>
+      <ResultsView>View3D</ResultsView>
+      <IrisPlotViewData>
+        <Position>
+          <X>2.2670552030966897</X>
+          <Y>0.645667229737355</Y>
+          <Z>4.5026409593740908</Z>
+        </Position>
+        <LookDirection>
+          <X>-2.2670552030966897</X>
+          <Y>-0.645667229737355</Y>
+          <Z>-4.5026409593740908</Z>
+        </LookDirection>
+        <UpDirection>
+          <X>-0.8520552820980406</X>
+          <Y>-0.24266906814789807</Y>
+          <Z>0.46380331996774388</Z>
+        </UpDirection>
+        <Orthographic>false</Orthographic>
+        <DBRef>6.6090770712189093E-08</DBRef>
+        <SelectedArrivalIndex>0</SelectedArrivalIndex>
+        <OffsetdB>40</OffsetdB>
+        <Band>Broadband</Band>
+        <SegmentTime>0.002</SegmentTime>
+        <ArrivalTimeColoursList>
+          <ArrivalTimeColours>
+            <ArrivalTimeColourList>
+              <ArrivalTimeColourItem>
+                <TimeIntervalEnd>2</TimeIntervalEnd>
+                <Colour>
+                  <A>255</A>
+                  <R>224</R>
+                  <G>37</G>
+                  <B>65</B>
+                  <ScA>1</ScA>
+                  <ScR>0.7454042</ScR>
+                  <ScG>0.01850022</ScG>
+                  <ScB>0.0528606474</ScB>
+                </Colour>
+                <isHidden>false</isHidden>
+              </ArrivalTimeColourItem>
+              <ArrivalTimeColourItem>
+                <TimeIntervalEnd>20</TimeIntervalEnd>
+                <Colour>
+                  <A>255</A>
+                  <R>254</R>
+                  <G>131</G>
+                  <B>48</B>
+                  <ScA>1</ScA>
+                  <ScR>0.9911021</ScR>
+                  <ScG>0.226965874</ScG>
+                  <ScB>0.0295568351</ScB>
+                </Colour>
+                <isHidden>false</isHidden>
+              </ArrivalTimeColourItem>
+              <ArrivalTimeColourItem>
+                <TimeIntervalEnd>80</TimeIntervalEnd>
+                <Colour>
+                  <A>255</A>
+                  <R>168</R>
+                  <G>223</G>
+                  <B>85</B>
+                  <ScA>1</ScA>
+                  <ScR>0.391572475</ScR>
+                  <ScG>0.7379104</ScG>
+                  <ScB>0.09084171</ScB>
+                </Colour>
+                <isHidden>false</isHidden>
+              </ArrivalTimeColourItem>
+              <ArrivalTimeColourItem>
+                <TimeIntervalEnd>200</TimeIntervalEnd>
+                <Colour>
+                  <A>255</A>
+                  <R>54</R>
+                  <G>143</G>
+                  <B>186</B>
+                  <ScA>1</ScA>
+                  <ScR>0.03688945</ScR>
+                  <ScG>0.2746773</ScG>
+                  <ScB>0.491020858</ScB>
+                </Colour>
+                <isHidden>false</isHidden>
+              </ArrivalTimeColourItem>
+              <ArrivalTimeColourItem>
+                <TimeIntervalEnd>INF</TimeIntervalEnd>
+                <Colour>
+                  <A>255</A>
+                  <R>162</R>
+                  <G>207</G>
+                  <B>232</B>
+                  <ScA>1</ScA>
+                  <ScR>0.3613068</ScR>
+                  <ScG>0.6239604</ScG>
+                  <ScB>0.806952238</ScB>
+                </Colour>
+                <isHidden>false</isHidden>
+              </ArrivalTimeColourItem>
+            </ArrivalTimeColourList>
+            <Name>Music</Name>
+          </ArrivalTimeColours>
+          <ArrivalTimeColours>
+            <ArrivalTimeColourList>
+              <ArrivalTimeColourItem>
+                <TimeIntervalEnd>2</TimeIntervalEnd>
+                <Colour>
+                  <A>255</A>
+                  <R>224</R>
+                  <G>37</G>
+                  <B>65</B>
+                  <ScA>1</ScA>
+                  <ScR>0.7454042</ScR>
+                  <ScG>0.01850022</ScG>
+                  <ScB>0.0528606474</ScB>
+                </Colour>
+                <isHidden>false</isHidden>
+              </ArrivalTimeColourItem>
+              <ArrivalTimeColourItem>
+                <TimeIntervalEnd>50</TimeIntervalEnd>
+                <Colour>
+                  <A>255</A>
+                  <R>168</R>
+                  <G>223</G>
+                  <B>85</B>
+                  <ScA>1</ScA>
+                  <ScR>0.391572475</ScR>
+                  <ScG>0.7379104</ScG>
+                  <ScB>0.09084171</ScB>
+                </Colour>
+                <isHidden>false</isHidden>
+              </ArrivalTimeColourItem>
+              <ArrivalTimeColourItem>
+                <TimeIntervalEnd>80</TimeIntervalEnd>
+                <Colour>
+                  <A>255</A>
+                  <R>54</R>
+                  <G>143</G>
+                  <B>186</B>
+                  <ScA>1</ScA>
+                  <ScR>0.03688945</ScR>
+                  <ScG>0.2746773</ScG>
+                  <ScB>0.491020858</ScB>
+                </Colour>
+                <isHidden>false</isHidden>
+              </ArrivalTimeColourItem>
+              <ArrivalTimeColourItem>
+                <TimeIntervalEnd>INF</TimeIntervalEnd>
+                <Colour>
+                  <A>255</A>
+                  <R>162</R>
+                  <G>207</G>
+                  <B>232</B>
+                  <ScA>1</ScA>
+                  <ScR>0.3613068</ScR>
+                  <ScG>0.6239604</ScG>
+                  <ScB>0.806952238</ScB>
+                </Colour>
+                <isHidden>false</isHidden>
+              </ArrivalTimeColourItem>
+            </ArrivalTimeColourList>
+            <Name>Speech</Name>
+          </ArrivalTimeColours>
+        </ArrivalTimeColoursList>
+        <SelectedArrivalTimeColoursName />
+        <ReferenceMeasurementId>-1</ReferenceMeasurementId>
+        <UseGlobalLevelReference>false</UseGlobalLevelReference>
+        <AlignDirectToX>false</AlignDirectToX>
+        <CameraParam>0</CameraParam>
+        <SelectedArrivalSegmentTime>0.002</SelectedArrivalSegmentTime>
+        <SelectedArrivalOnset>3422</SelectedArrivalOnset>
+      </IrisPlotViewData>
+      <WaveformData>
+        <StartSampleIndex>2043</StartSampleIndex>
+        <EndSampleIndex>97146</EndSampleIndex>
+        <MinAmpLin>-1</MinAmpLin>
+        <MaxAmpLin>1</MaxAmpLin>
+        <MinAmpLog>-60</MinAmpLog>
+        <MaxAmpLog>0</MaxAmpLog>
+        <DisplayType>Log</DisplayType>
+      </WaveformData>
+      <SelectedChartMeasureIndex>0</SelectedChartMeasureIndex>
+    </ResultsViewData>
+  </Measurement>
+</Model>
